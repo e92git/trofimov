@@ -8,7 +8,7 @@
 * git add . 
 * git commit -a 
 * git push
- 
+
 # Что бы пароль не спрашивал больше от Git
 * git config --global credential.helper cache
 * git config --global credential.helper 'cache --timeout=3600000'
