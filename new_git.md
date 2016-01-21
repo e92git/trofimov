@@ -1,4 +1,4 @@
-# Добавление удаленного репозитория git
+# Добавление удаленного репозитория git 
 * git config --global user.name "e92git"
 * git config --global user.email "web.kss.ru@gmail.com"
 * git remote add server https://e92git@github.com/e92git/trofimov.git
