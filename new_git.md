@@ -1,5 +1,14 @@
 cd /var/www/trofimov/data/www/trofimov.web-kss.ru
 
+# Старт работы
+cmd: vagrant up
+git bash: ssh vagrant@127.0.0.1 -p 2222
+
+# Завершение работы
+cmd: vagrant up
+git bash: ssh vagrant@127.0.0.1 -p 2222
+
+
 # Добавление удаленного репозитория git
 * git config --global user.name "e92git"
 * git config --global user.email "web.kss.ru@gmail.com"
