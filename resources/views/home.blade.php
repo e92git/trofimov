@@ -9,6 +9,7 @@
 
     <title>Squadfree - Free bootstrap 3 one page template</title>
 
+    <link href="{{ asset(('css/bootstrap.css')) }}" rel="stylesheet">
     <link href="{{ asset(('css/app.css')) }}" rel="stylesheet">
 
     {{--<!-- Bootstrap Core CSS -->--}}

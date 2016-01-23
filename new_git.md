@@ -3,6 +3,7 @@ cd /var/www/trofimov/data/www/trofimov.web-kss.ru
 # Старт работы
 cmd: vagrant up
 git bash: ssh vagrant@127.0.0.1 -p 2222
+git bash: cd /home/vagrant/Code/Laravel
 
 # Завершение работы
 cmd: vagrant up
