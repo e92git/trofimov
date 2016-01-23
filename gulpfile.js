@@ -18,8 +18,8 @@ elixir(function(mix) {
     var bower = 'vendor/bower_components';
 
     // sass
-    mix.sass('app.scss', 'resources/assets/css/app.css');
     mix.sass('bootstrap.scss', 'public/css/bootstrap.css');
+    mix.sass('app.scss', 'resources/assets/css/app.css');
 
     // fonts
     mix
@@ -29,7 +29,11 @@ elixir(function(mix) {
 
     // css
     mix.styles([
-        "resources/assets/css/*.css"
+        "resources/assets/css/app.css",
+        "resources/assets/css/animate.css",
+        "resources/assets/css/style.css",
+        "resources/assets/css/default.css"
+        //"resources/assets/css/*.css"
     ], "public/css/app.css", './');
 
     // js
