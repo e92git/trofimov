@@ -37,7 +37,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand" href="#page-top">
-                    <h1>TROFIMOV DEV</h1>
+                    <h1>Trofimov Dev</h1>
                 </a>
             </div>
 

@@ -1,6 +1,8 @@
 cd /var/www/trofimov/data/www/trofimov.web-kss.ru
 
 # Старт работы
+cmd: vagrant d:
+cmd: vagrant D:\Homestead\homestead
 cmd: vagrant up
 git bash: ssh vagrant@127.0.0.1 -p 2222
 git bash: cd /home/vagrant/Code/Laravel
@@ -17,6 +19,7 @@ git bash: ssh vagrant@127.0.0.1 -p 2222
 ##variant 1
 * cd /var/www/trofimov/data/www/
 * git clone https://e92git@github.com/e92git/trofimov.git trofimov.web-kss.ru
+* git clone https://e92git@github.com/e92git/starter-laravel-angular.git laravel-angular
 * cd trofimov.web-kss.ru
 
 ##variant 2
