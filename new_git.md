@@ -2,7 +2,7 @@ cd /var/www/trofimov/data/www/trofimov.web-kss.ru
 
 # Старт работы
 cmd: d:
-cmd: D:\Homestead\homestead
+cmd: cd D:\Homestead\homestead
 cmd: vagrant up
 git bash: ssh vagrant@127.0.0.1 -p 2222
 git bash: cd /home/vagrant/Code/Laravel
